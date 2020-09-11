@@ -13,6 +13,10 @@ Install directly from my [PyPi](https://pypi.org/project/classic-CandidateElimin
 
 > pip install classic-CandidateElimination
 
+Or Clone the [Repository](https://github.com/safir72347/ML-CandidateElimination-PyPi) and install
+
+> python3 setup.py install
+
 Parameters
 -------------
 
@@ -22,7 +26,7 @@ The Training Set array consisting of Features.
 
 ## * y_train
 -------------
-The Test Set array consisting of Outcome.
+The Training Set array consisting of Outcome.
 
 
 Attributes

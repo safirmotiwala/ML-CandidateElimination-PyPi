@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: classic-CandidateElimination
-Version: 1.0.6
+Version: 2.0.0
 Summary: Candidate-Elimination Algorithm is a Machine Learning Algorithm that builds the version space from Specific Hypothesis and General Hypothesis.
-Home-page: https://github.com/safir72347/ML-FindS-PyPi
+Home-page: https://github.com/safir72347/ML-CandidateElimination-PyPi
 Author: Safir Motiwala
 Author-email: safirmotiwala@gmail.com
 License: UNKNOWN
@@ -21,6 +21,10 @@ Description: Candidate-Elimination Algorithm
         
         > pip install classic-CandidateElimination
         
+        Or Clone the [Repository](https://github.com/safir72347/ML-CandidateElimination-PyPi) and install
+        
+        > python3 setup.py install
+        
         Parameters
         -------------
         
@@ -30,7 +34,7 @@ Description: Candidate-Elimination Algorithm
         
         ## * y_train
         -------------
-        The Test Set array consisting of Outcome.
+        The Training Set array consisting of Outcome.
         
         
         Attributes

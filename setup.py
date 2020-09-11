@@ -13,13 +13,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="classic_CandidateElimination", 
-    version="1.0.6",
+    version="2.0.0",
     author="Safir Motiwala",
     author_email="safirmotiwala@gmail.com",
     description="Candidate-Elimination Algorithm is a Machine Learning Algorithm that builds the version space from Specific Hypothesis and General Hypothesis.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/safir72347/ML-FindS-PyPi",
+    url="https://github.com/safir72347/ML-CandidateElimination-PyPi",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
