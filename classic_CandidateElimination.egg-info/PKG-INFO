@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: classic-CandidateElimination
+Version: 1.0.6
+Summary: Candidate-Elimination Algorithm is a Machine Learning Algorithm that builds the version space from Specific Hypothesis and General Hypothesis.
+Home-page: https://github.com/safir72347/ML-FindS-PyPi
+Author: Safir Motiwala
+Author-email: safirmotiwala@gmail.com
+License: UNKNOWN
+Description: Candidate-Elimination Algorithm
+        ===================
+        
+        
+        Candidate-Elimination Algorithm is a Machine Learning Algorithm that builds the version space from Specific Hypothesis and General Hypothesis.
+        
+        ----------
+        
+        
+        Installation
+        -------------
+        Install directly from my [PyPi](https://pypi.org/project/classic-CandidateElimination/)
+        
+        > pip install classic-CandidateElimination
+        
+        Parameters
+        -------------
+        
+        ## * X_train 
+        -------------
+        The Training Set array consisting of Features.
+        
+        ## * y_train
+        -------------
+        The Test Set array consisting of Outcome.
+        
+        
+        Attributes
+        -------------
+        
+        ## * fit(X_train, y_train)
+        -------------
+        Fit the Training Set to the model.
+        
+        ## * predict(y_test)
+        -------------
+        Predict the Test Set Results.
+        
+        
+        
+        <i class="icon-file"></i> Documentation
+        -------------
+        
+        ### 1.  Install the package
+        >  pip install classic_FindS
+        
+        ### 2. Import the library
+        >  from classic_CandidateElimination import Candidate_Elimination
+        
+        ### 3. Create an object for FindS class
+        > ce = Candidate_Elimination()
+        
+        ### 4. Fit your Training Set to the model
+        > fs.fit(X_train, y_train)
+        
+        ### 5. Predict your Test Set results
+        > y_pred = fs.predict(y_test)
+        
+        ----------
+        
+        
+        
+        Example Code
+        -------------
+        
+        ### 1. Import the dataset and Preprocess
+        > * import numpy as np
+        > * import pandas as pd
+        > * dataset = pd.read_csv('Covid-19_Data.csv')
+        > * result = {'Yes':1, 'No':0}
+        > * dataset['Covid_19'] = dataset['Covid_19'].map(result)
+        > * X = dataset.iloc[:, 0:5].values
+        > * y = dataset.iloc[:, -1].values
+        
+        > * from sklearn.model_selection import KFold
+        > * kf = KFold(n_splits=10)
+        > * for train_index, test_index in kf.split(X,y):
+        >	 * X_train, X_test = X[train_index], X[test_index]
+        >	 * y_train, y_test = y[train_index], y[test_index]
+        
+        ### 2. Use the Find-S Library
+        > * from classic_CandidateElimination import Candidate_Elimination
+        > * ce = Candidate_Elimination()            
+        > * ce.fit(X_train, y_train)
+        > * y_pred = ce.predict(X_test) 
+        
+        
+        ----------
+        
+        
+        
+        Footnotes
+        -------------
+        
+        You can find the code at my [Github](https://github.com/safir72347/ML-CandidateElimination-PyPi).
+        
+        
+        
+        Connect with me on Social Media
+        -------------
+        
+        * [https://www.github.com/safir72347](www.github.com/safir72347)
+        * [https://www.linkedin.com/in/safir72347/](https://www.linkedin.com/in/safir72347/)
+        * [https://www.instagram.com/safir_12_10/](https://www.instagram.com/safir_12_10/)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
