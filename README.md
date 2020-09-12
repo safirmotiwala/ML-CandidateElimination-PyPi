@@ -82,7 +82,7 @@ Example Code
 >	 * X_train, X_test = X[train_index], X[test_index]
 >	 * y_train, y_test = y[train_index], y[test_index]
 
-### 2. Use the Find-S Library
+### 2. Use the Candidate Elimination Library
 > * from classic_CandidateElimination import Candidate_Elimination
 > * ce = Candidate_Elimination()            
 > * ce.fit(X_train, y_train)
